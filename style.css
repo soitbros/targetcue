@@ -1,0 +1,68 @@
+@import url(//fonts.googleapis.com/css?family=Archivo+Black);
+
+body {
+  color: rgb(34, 34, 34);
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 13rem;
+}
+
+li {
+  display: inline-block;
+}
+
+svg {
+  height: 5em;
+}
+
+label {
+  font-size: 1.5rem;
+}
+
+.container {
+  margin-top: 20vh;
+}
+
+.red {
+  color: FIREBRICK;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.pams {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  body {
+    font-size: 1.75rem;
+  }
+  h1 {
+    font-size: 9rem;
+  }
+  label {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  label {
+    font-size: 1rem;
+  }
+}
